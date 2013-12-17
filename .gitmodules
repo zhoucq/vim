@@ -7,3 +7,9 @@
 [submodule "bundle/AutoClose"]
 	path = bundle/AutoClose
 	url = https://github.com/vim-scripts/AutoClose
+[submodule "bundle/vim-github-theme"]
+	path = bundle/vim-github-theme
+	url = https://github.com/ricardovaleriano/vim-github-theme
+[submodule "bundle/colorschemes"]
+	path = bundle/colorschemes
+	url = git@github.com:flazz/vim-colorschemes.git
