@@ -44,10 +44,10 @@ endif
 set fdm=marker
 "}}}
 
+let g:NERDTreeChDirMode=1         " 自动进入工作目录
 "{{{ NERDTree设置
-nmap <F3> :NERDTreeToggle <CR>  " 快捷键F3
-let NERDTreeChDirMode=1         " 自动进入工作目录
-let NERDTreeDirArrows=0         " 使用+/~作为目录折叠的符号
+nmap <F3> :NERDTreeToggle <CR>    " 快捷键F3
+let g:NERDTreeDirArrows=0         " 使用+/~作为目录折叠的符号
 "}}}
 
 set noerrorbells
