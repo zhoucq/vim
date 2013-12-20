@@ -23,6 +23,8 @@ set backspace=indent,eol,start
 
 set showmatch
 
+set fileencodings=ucs-bom,utf-8,cp936,gb18030,big5,euc-jp,euc-kr,latin1
+
 " .vimrc文件变化后自动更新
 autocmd! bufwritepost .vimrc source ~/.vimrc
 
